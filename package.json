@@ -2,6 +2,7 @@
   "name": "trivia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://techwarehouz.com/trivia",
   "dependencies": {
     "axios": "^0.18.0",
     "lodash.unescape": "^4.0.1",
