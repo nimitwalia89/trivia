@@ -8,6 +8,9 @@ import './index.css';
 import App from './containers/quiz/App';
 import registerServiceWorker from './registerServiceWorker';
 
+
+
+
 const store = createStore(allReducers, applyMiddleware(thunk));
 ReactDOM.render(
 <Provider store={store}>
