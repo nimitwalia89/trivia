@@ -7,7 +7,7 @@ import allReducers from './redux-base/reducers';
 import './index.css';
 import App from './containers/quiz/App';
 import registerServiceWorker from './registerServiceWorker';
-console.log('test');
+console.log('testing');
 const store = createStore(allReducers, applyMiddleware(thunk));
 ReactDOM.render(
 <Provider store={store}>
